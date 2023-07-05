@@ -1,0 +1,47 @@
+.Container1
+{
+    background-color: cornsilk;
+    width: 500px;
+    height: 400px;
+}
+@keyframes new_an {
+    from{background-color: red;}
+    to{background-color:blue;}
+
+}
+@keyframes an_2 {
+    from{color: red;}
+    to{color:blue;}
+
+}
+@keyframes an_3 {
+    from{height: 100px;}
+    to{height: 200px;}
+
+}
+.b1
+{
+animation-name: new_an;
+animation-duration: 4s;
+animation-iteration-count: 3;
+background-color:aqua;
+}
+.p1
+{
+    animation-name: an_2;
+    color: black;
+    animation-duration: 5s;
+}
+.img1
+{
+    animation-name: an_3;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 2s;
+    animation-fill-mode: inherit;
+    animation-play-state: running;
+    height: 100px;
+    width: 200px;
+    animation-direction: reverse;
+}
